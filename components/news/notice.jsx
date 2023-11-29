@@ -29,7 +29,7 @@ export default function Notice (props){
             { NoticeList.map( list => {
             return <div className=" px-6 m-1 mt-3 min-h-[105px] ">
             <div className="rounded shadow-noticeboard flex flex-col gap-4 p-2 bg-[#F6F6F6] px-8 pt-5 pb-2 shadow-inner shadow-md w-full border-[.5px rgba(0,0,0,0.50)]">
-             <p className="text-baseliteblue text-[25px] font-[700] leading-[24px]">{list.notice}</p>
+             <p className="text-baseliteblue text-[25px] font-[700] leading-[24px] shortlink">{list.notice}</p>
              <span className="text-[#000] leading-[16px] text-[14.94px] font-[400]">
              {list.date}
              </span>

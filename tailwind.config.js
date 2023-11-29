@@ -14,7 +14,7 @@ module.exports = {
       },
       boxShadow: {
         'noticeboard': '0px 0px 4px 0px rgba(0, 0, 0, 0.25)',
-        
+        "header": "0px 4px 4px 0px rgba(0, 0, 0, 0.25)"
       },
       border: {
         'buttonborder': ' 1px solid #0C63B4',

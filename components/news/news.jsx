@@ -17,12 +17,10 @@ export default function News(){
   
     return(
         <div className="flex flex-col ">
-             <div className="relative overflow-hidden ">
-                
-                <div className=" ">
-                  <p className='p-3 font-bold text-[25px]  bg-[#E0DEF4] relative z-20  md:px-10'>News</p>
-                </div>
-                <div className=" absolute  bg-[#F1D1D0] rotate-45 h-[200px] w-[200px]  top-[-100px] left-[-20px] z-10 overflow-hidden"></div>
+             <div className="relative overflow-hidden flex items-center  p-4  ">
+              <div className='absolute top-[-60px] left-[-130px] w-[300px] rotate-[-60deg] h-[200px] bg-[#F1D1D0] z-20 '></div>
+              <div className='absolute w-full h-[91px] bg-[#E0DEF4]'></div>
+              <p className='relative text-black font-inter text-25 font-bold leading-normal z-40 px-8 '>News</p>
              </div>
              <div className="flex  flex-col py-10 px-10 gap-10 justify-between md:flex-row">
                 <div className=" gap-4 bg-white grow">
