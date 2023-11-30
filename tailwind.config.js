@@ -32,7 +32,8 @@ module.exports = {
         footer:"#9CD3F9",
         inputplaceholder:"rgba(0, 0, 0, 0.40)",
         submitbutton:'#F0AD4E',
-        noticebackground:"#effaff"
+        noticebackground:"#effaff",
+        shadowtop:""
       }
      
     },
