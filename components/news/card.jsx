@@ -14,7 +14,7 @@ export default function Card(props){
            <h2 className="text-[#262161] text-[25px] font-inter font-[700]">{props.details.name}</h2>
            </Link>
         </div>
-        <img className="max-h-[219px]" src="./card1.png" alt="" />
+        <img className="" src="./card1.png" alt="" />
         <span className="leading-[30px]">
         Lorem Ipsum is simply dummy text 
         </span>
