@@ -10,6 +10,7 @@ module.exports = {
       backgroundImage: {
         
             'bg_image' : "url(../public/cover.png)",
+            "bgnotice" : "url(../public/coversm.jpg)",
         
       },
       boxShadow: {
@@ -19,8 +20,6 @@ module.exports = {
       border: {
         'buttonborder': ' 1px solid #0C63B4',
         "loginborder" : "1px solid rgba(0, 0, 0, 0.25)"
-
-  
       },
 
       colors: {
@@ -32,7 +31,8 @@ module.exports = {
         baseliteblue:"#0C63B4",
         footer:"#9CD3F9",
         inputplaceholder:"rgba(0, 0, 0, 0.40)",
-        submitbutton:'#F0AD4E'
+        submitbutton:'#F0AD4E',
+        noticebackground:"#effaff"
       }
      
     },

@@ -1,10 +1,16 @@
-
+import Link from "next/link"
 export default function Header(){
     return(
-        <div className="px-4 py-2 flex  items-center shadow-header fixed w-full bg-white z-50 xl:px-6  ">
+        <div className=" px-4 py-2 flex  items-center shadow-header fixed w-full bg-white z-50 xl:px-6  ">
           <div className="flex gap-x-4 items-center grow ">
-          <img src="./icon/logo.svg" className="w-68.083 h-68.083 flex-shrink-0" alt="department of shipping" />
-          <h2 className="text-black font-inter text-30.557 font-bold">Department of Shipping</h2>
+         <Link href='/'>
+         <img src="./icon/logo.svg" className="w-68.083 h-68.083 flex-shrink-0" alt="department of shipping" />
+         </Link>
+          <h2 className="text-black font-inter text-30.557 font-bold">
+            <Link href='/'>
+              Department of Shipping
+            </Link>
+            </h2>
           </div>
           
           <div className="hidden  items-center  xl:gap-x-12 md:flex">
