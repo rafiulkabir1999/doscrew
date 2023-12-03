@@ -5,7 +5,7 @@ import ArrowButton from "@/components/layout/arrowButton"
 export default function Details(){
     
     return(
-        <div className="pt-[87px]  pb-20 ">
+        <div className="">
            
            {/* Cover area of details page @ /notice @/manual @/toutorial */}
         <DetailsHeader details="tutorials" />

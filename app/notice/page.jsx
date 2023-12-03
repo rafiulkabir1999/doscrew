@@ -6,10 +6,10 @@ import ArrowButton from '../../components/layout/arrowButton'
 export default function Details(){
     
     return(
-        <div className="pt-[87px]   ">
+        <div className="   ">
           <DetailsHeader details="Notice" />
 
-           <div className=" px-10 py-7 bg-noticebackground pb-20">
+           <div className="block px-10 py-7 bg-noticebackground pb-20">
               <Notice/>
               
             <div className="px-5 py-2">

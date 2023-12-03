@@ -33,7 +33,10 @@ module.exports = {
         inputplaceholder:"rgba(0, 0, 0, 0.40)",
         submitbutton:'#F0AD4E',
         noticebackground:"#effaff",
-        shadowtop:""
+        shadowtop:"",
+        transparentBlack:" rgba( 0 , 0 , 0 , 0.502 )",
+        otpHeader:"#D5ECC2",
+        resendOTP:"#F0AD4E"
       }
      
     },

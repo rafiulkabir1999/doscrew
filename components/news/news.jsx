@@ -1,6 +1,7 @@
 import Notice from './notice'
 import Card from './card'
 import Link from 'next/link'
+import Modalnotification from '../layout/Modalnotification'
 
 export default function News(){
 
@@ -17,13 +18,14 @@ export default function News(){
 ]
   
     return(
-        <div className="flex flex-col bg-noticebackground ">
+        <div className="relative flex flex-col bg-noticebackground ">
             <div className="relative overflow-hidden flex items-center  p-4  ">
               <div className='absolute top-[-60px] left-[-130px] w-[300px] rotate-[-60deg] h-[200px] bg-[#F1D1D0] z-20 '></div>
               <div className='absolute w-full h-[91px] bg-[#E0DEF4]'></div>
               <p className='relative text-black font-inter text-25 font-bold leading-normal z-40 px-8 '>News</p>
              </div>
-             <div className="flex  flex-col py-10 px-10 gap-10 justify-between md:flex-row">
+
+             <div className="flex  flex-col py-10 px-2 gap-10 justify-between md:px-10 md:py-10 md:flex-row">
              <div className=" gap-4 bg-white grow">
                <div className="flex flex-col   shadow-noticeboard rounded h-full ">
                   {/* Notice Header */}
@@ -44,6 +46,8 @@ export default function News(){
                   })}
                 </div>
              </div>
+
+             <Modalnotification />
         </div>
     )
 }

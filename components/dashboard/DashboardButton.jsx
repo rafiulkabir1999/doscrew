@@ -7,7 +7,7 @@ export default function DashboardButton(){
    },{
     name:"Sea Service",
     value:"000",
-    color:"bg-[#D9D9D9]"
+    color:"bg-[#FFD3B4]"
   },
     {
         name:"Total Exam",
@@ -18,7 +18,7 @@ export default function DashboardButton(){
         value:"00",
         color:"bg-[#E0DEF4]"
     }
-
+   
  ]
     return(
         <div className="flex gap-x-4">

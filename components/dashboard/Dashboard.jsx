@@ -4,7 +4,7 @@ import StatusofApplication from './StatusofAPplicaton'
 
 export default function Dashboard(){
     return(
-        <div className="grid grid-cols-12  pt-20 ">
+        <div className="grid grid-cols-12  cleanFix ">
             {/* Menu */}
             <div className="col-span-2 h-screen bg">
                <div className='flex flex-col pt-5'>
@@ -44,6 +44,7 @@ export default function Dashboard(){
               <h2 className="py-4 text-xl">Dashboard</h2>
               <div className='p-4 bg-white flex flex-col'>
                 <DashboardButton />
+                <StatusofApplication />
            
               </div>
             </div>

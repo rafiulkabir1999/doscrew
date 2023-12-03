@@ -4,7 +4,7 @@ import DetailsHeader from '@/components/layout/detailsheader'
 export default function Manual(){
 
     return(
-        <div className="pt-[87px]  pb-20 ">
+        <div className="">
             <DetailsHeader details="Manual" />
 
            <div className=" px-10 py-7 bg-noticebackground ">

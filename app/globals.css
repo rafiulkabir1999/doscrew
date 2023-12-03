@@ -37,6 +37,12 @@
 
 }
 
+.cleanFix{
+  position: relative;
+  overflow: hidden;
+  height: calc(100vh - 71px);
+  height: calc(var(--vh, 1vh) * 100 - 71px)
+}
 
 @font-face {
   font-family: 'Inter';

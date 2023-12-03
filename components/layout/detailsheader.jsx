@@ -1,7 +1,7 @@
 import Link from 'next/link'
 export default function detailsheader (props) {
     return(
-        <div className="bg-bg_image obj-fit max-h-[180px] bg-cover relative" >
+        <div className="bg-bg_image obj-fit max-h-[180px] bg-cover cleanFix" >
         <div className="px-10 flex items-center h-full   justify-center max-h-[180px] opacity-10 bg-gradient-to-r from-blue-500 via-blue-500 to-transparent  h-screen">
      
         </div>
