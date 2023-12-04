@@ -7,11 +7,13 @@ export default function News(){
 
    const CardList = [{
       name:"Manual",
-      path:'./icon/manualicon.svg'
+      path:'./icon/manualicon.svg',
+      image:'bg-card1'
    },
    {
       name:"Tutorials",
-      path:'./icon/tutorialicon.svg'
+      path:'./icon/tutorialicon.svg',
+      image:'bg-card2'
    },
 
 

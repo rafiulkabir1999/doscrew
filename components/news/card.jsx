@@ -1,5 +1,4 @@
 'use client'
-import { BsHouseGearFill } from "react-icons/bs";
 import Image from 'next/image'
 import Link from 'next/link'
 
@@ -18,10 +17,25 @@ export default function Card(props){
             <img  onClick={handleModal} src={props.details.path} className="text-[#262161] text-[25px] p-2">
             </img>
            <Link href={(props.details.name).toLowerCase()}>
-           <h2 className="text-[#262161] text-[25px] font-inter font-[700]">{props.details.name}</h2>
+           <h2 className="text-[#262161] text-[25px] font-inter font-bold">{props.details.name}</h2>
            </Link>
         </div>
-        <img className="" src="./card1.png" alt="" />
+
+          {/*Card Background Image  */}
+        <div
+        onClick={handleModal}
+        className={` relative ${props.details.image} bg-cover w-full object-fit cursor-pointer obj-cover bg-cover w-[386px] h-[219px]`} >
+          
+          {/* Black Shade top of Card */}
+          <div className="absolute  h-full block w-full bg-transparentBlack opacity-60">
+           
+          </div>
+ 
+           {/* Card Youtube Icon */}
+          <img src="./icon/youtube.svg"
+          className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-30px"
+          alt="" />
+        </div>
         <span className="leading-[30px]">
         Lorem Ipsum is simply dummy text 
         </span>

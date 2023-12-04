@@ -9,7 +9,7 @@ export default function Details(){
         <div className="   ">
           <DetailsHeader details="Notice" />
 
-           <div className="block px-10 py-7 bg-noticebackground pb-20">
+           <div className="block px-1 py-7 bg-noticebackground pb-20 md:px-10 md:py-7">
               <Notice/>
               
             <div className="px-5 py-2">

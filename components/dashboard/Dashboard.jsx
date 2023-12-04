@@ -1,8 +1,65 @@
+"use client"
+
 import DashboardButton from './DashboardButton'
 import SeaServiceRecord from './SeaServiceRecord'
 import StatusofApplication from './StatusofAPplicaton'
 
 export default function Dashboard(){
+
+  const status = [
+    {
+    sino: 1,
+    Applicationid: 1234,
+    name: "New COC Application",
+    Payment: "Yes",
+    Admit_Card: "print",
+    Written: "Pass",
+    Eye_Test: "Fail",
+    Result: "Fail",
+    CoC_Issued: "Yes",
+    Details: "Details"
+},
+{
+    sino: 700,
+    Applicationid: 1235,
+    name: "New COC Application",
+    Payment: "Yes",
+    Admit_Card: "print",
+    Written: "Pass",
+    Oral: 'Pass',
+    Eye_Test: "Fail",
+    Result: "Fail",
+    CoC_Issued: "Yes",
+    Details: "Details"
+},
+{
+    sino: 2,
+    Applicationid: 1235,
+    name: "New COC Application",
+    Payment: "Yes",
+    Admit_Card: "print",
+    Written: "Pass",
+    Oral: 'Pass',
+    Eye_Test: "Fail",
+    Result: "Fail",
+    CoC_Issued: "Yes",
+    Details: "Details"
+},
+{
+    sino: 4,
+    Applicationid: 1235,
+    name: "New COC Application",
+    Payment: "Yes",
+    Admit_Card: "print",
+    Written: "Pass",
+    Oral: 'Pass',
+    Eye_Test: "Fail",
+    Result: "Fail",
+    CoC_Issued: "Yes",
+    Details: "Details"
+},
+]
+
     return(
         <div className="grid grid-cols-12  cleanFix ">
             {/* Menu */}
@@ -44,7 +101,7 @@ export default function Dashboard(){
               <h2 className="py-4 text-xl">Dashboard</h2>
               <div className='p-4 bg-white flex flex-col'>
                 <DashboardButton />
-                <StatusofApplication />
+                <StatusofApplication details= {status}/>
            
               </div>
             </div>

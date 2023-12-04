@@ -29,7 +29,7 @@ export default function Header(){
    <Link href='/'>
    <img src="./icon/logo.svg" className="w-[28px] md:w-[50px]" alt="department of shipping" />
    </Link>
-    <h2 className="text-black font-inter font-bold text-[12px] md:text-[12px] xl:text-[20px]">
+    <h2 className="text-black font-inter font-bold text-[16px] md:text-[20px] xl:text-[20px]">
       <Link href='/'>
         Department of Shipping
       </Link>
@@ -37,12 +37,12 @@ export default function Header(){
     </div>
     
     {/* info */}
-    <div className="flex jistify-between items-center  xl:gap-x-12 md:flex">
-     <div className="hidden  gap-x-4 p-2 md:flex">
+    <div className="flex jistify-between items-center gap-x-2  xl:gap-x-12 md:flex">
+     <div className="hidden  gap-x-2   p-2 md:flex">
       <img src="./icon/contact.svg" className="w-[55px]  " alt="" />
       <div className="flex flex-col justify-center item-center font-[400]  leading-[34px] shrink">
-      <p className="flex text-black font-inter text-12 font-normal leading-34 gap-x-2 xl:text-[20px]">Call : <span className="text-black font-inter text-[12px] font-bold leading-34 xl:text-[20px]">09223455 </span> </p>
-      <p className="flex text-black font-inter text-12 font-normal leading-34 gap-x-2 xl:text-[20px]">Mail : <span className="text-black font-inter text-[12px] font-bold leading-34 xl:text-[20px]"> info@dosinlandcrew.com</span> </p>
+      <p className="flex text-black font-inter text-12 font-normal leading-34 gap-x-2 xl:text-[16px]">Call : <span className="text-black font-inter text-[12px] font-bold leading-34 xl:text-[20px]">09223455 </span> </p>
+      <p className="flex text-black font-inter text-12 font-normal leading-34 gap-x-2 xl:text-[16px]">Mail : <span className="text-black font-inter text-[12px] font-bold leading-34 xl:text-[20px]"> info@dosinlandcrew.com</span> </p>
       </div>
      </div>
      <span className="hidden md:block">
@@ -50,17 +50,19 @@ export default function Header(){
      </span>
 
    {/* Login  */}
-     <div className="flex items-center py-2 gap-2 md:gap-4 ">
-     <p className="text-black text-center font-inter text-[9px] font-bold leading-normal md:text-[20px]">Login</p>
-     <img src="./icon/usericon.svg"  className ='w-[28px] md:w-[55px] p-2' alt="" />
+   <Link href='/login'>
+   <div className="flex items-center py-2 gap-2 md:gap-2 cursor-pointer">
+     <p className="text-black text-center font-inter text-[9px] font-bold leading-normal md:text-[16px]">Login</p>
+     <img src="./icon/usericon.svg"  className ='w-[28px] md:w-[55px] ' alt="" />
      </div>
+   </Link>
     </div>
 
    
         </div>
 
 
-       <div id='MobileMenu' className="block absolute z-40   w-0 md:hidden" >
+       <div id='MobileMenu' className="block absolute z-40 w-0 transition-all ease-in-out delay-150  md:hidden" >
          <MobileMenu />
        </div>
        

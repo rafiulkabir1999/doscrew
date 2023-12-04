@@ -10,7 +10,7 @@ export default function detailsheader (props) {
         <Link href='/'>
         <img src="./icon/arrowleft.svg" className=" left-20 opacity-100  " alt="" />
         </Link>
-        <p className="opacity-100 relative z-50 text-center text-white text-center font-inter text-30 font-normal font-bold leading-normal translate-x-1/2 ">{props.details}</p>
+        <p className="opacity-100 relative z-20 text-center text-white text-center font-inter text-30 font-normal font-bold leading-normal translate-x-1/2 ">{props.details}</p>
         </div>
 
       </div>

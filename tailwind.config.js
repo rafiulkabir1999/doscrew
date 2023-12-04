@@ -11,6 +11,9 @@ module.exports = {
         
             'bg_image' : "url(../public/cover.png)",
             "bgnotice" : "url(../public/coversm.jpg)",
+            "bg_Cover" :   "url(../public/coverFullScreen.png)",
+            "card1":"url(../public/card1.png)",
+            "card2":"url(../public/card2.png)"
         
       },
       boxShadow: {

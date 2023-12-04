@@ -4,16 +4,18 @@ export default function DashboardButton(){
     name:"Total Applications",
     value:"00",
     color:"bg-[#4674C2]"
-   },{
+   },
+   {
     name:"Sea Service",
     value:"000",
     color:"bg-[#FFD3B4]"
   },
-    {
+  {
         name:"Total Exam",
         value:"00",
         color:"bg-[#98DDCA]"
-    },{
+    },
+    {
         name:"Achieve Cirtificates",
         value:"00",
         color:"bg-[#E0DEF4]"
