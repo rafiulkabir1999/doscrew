@@ -4,11 +4,11 @@ export default function StatusOfApplication(props) {
     
     return (
         <div className="flex flex-col">
-            <p className="font-bold text-[25px] leading-[140px]">status of application</p>
-            <table className="table-auto bg-blue-400">
-                <thead className="">
-                    <tr>
-                        <th>SI Noxxx</th>
+            <p className="font-bold text-2xl leading-7">Status of Application</p>
+            <table className="">
+                <thead className="p-4">
+                    <tr className="text-base">
+                        <th>SI No</th>
                         <th>Application ID</th>
                         <th>Name</th>
                         <th>Payment</th>
@@ -25,9 +25,9 @@ export default function StatusOfApplication(props) {
                 <tbody>
 
 
-                    {
+                    {/* {
                         props?.details?.map((list, idx) => (
-                            <tr className="p-2" key={idx}>
+                            <tr className="" key={idx}>
                                 <td>{list?.sino}</td>
                                 <td>{list?.Applicationid}</td>
                                 <td>{list?.name}</td>
@@ -41,7 +41,7 @@ export default function StatusOfApplication(props) {
                                 <td>{list?.Details}</td>
                             </tr>
                         ))
-                    }
+                    } */}
 
             
 

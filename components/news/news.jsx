@@ -24,7 +24,7 @@ export default function News(){
             <div className="relative overflow-hidden flex items-center  p-4  ">
               <div className='absolute top-[-60px] left-[-130px] w-[300px] rotate-[-60deg] h-[200px] bg-[#F1D1D0] z-20 '></div>
               <div className='absolute w-full h-[91px] bg-[#E0DEF4]'></div>
-              <p className='relative text-black font-inter text-25 font-bold leading-normal z-40 px-8 '>News</p>
+              <p className='relative text-black font-inter  font-bold leading-normal z-40 px-8  xl:text-[15px] 2xl:text-[30px]'>News</p>
              </div>
 
              <div className="flex  flex-col py-10 px-2 gap-10 justify-between md:px-10 md:py-10 md:flex-row">
@@ -43,10 +43,10 @@ export default function News(){
                   </div>
                 </div>
                 <div className=' flex flex-col  gap-y-4'>
-                  { CardList.map( item => {
-                     return <Card details = {item} />
+                  { CardList.map( (item, indx) => {
+                     return <Card key={indx} details = {item} />
                   })}
-                </div>
+                </div>     
              </div>
 
              <Modalnotification />

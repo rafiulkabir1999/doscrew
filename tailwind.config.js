@@ -9,9 +9,9 @@ module.exports = {
     extend: {
       backgroundImage: {
         
-            'bg_image' : "url(../public/cover.png)",
+            'bg_image' : "linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),url(../public/cover.png)",
             "bgnotice" : "url(../public/coversm.jpg)",
-            "bg_Cover" :   "url(../public/coverFullScreen.png)",
+            "bg_Cover" : "linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),url(../public/coverFullScreen.png)",
             "card1":"url(../public/card1.png)",
             "card2":"url(../public/card2.png)"
         

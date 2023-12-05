@@ -32,12 +32,12 @@ export default function Dashboard(){
                 <th>Details</th>
             </tr>
 
-           {StatusofApplication.map( list => {
+           {/* {StatusofApplication.map( list => {
             return     <tr>
                    <td>1</td>
                    <td>123</td>
                </tr>
-           })}
+           })} */}
 
          </table>
         </div>

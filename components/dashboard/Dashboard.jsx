@@ -46,7 +46,7 @@ export default function Dashboard(){
     Details: "Details"
 },
 {
-    sino: 4,
+    sino: 4000000,
     Applicationid: 1235,
     name: "New COC Application",
     Payment: "Yes",
@@ -57,6 +57,31 @@ export default function Dashboard(){
     Result: "Fail",
     CoC_Issued: "Yes",
     Details: "Details"
+},
+{
+  sino: 4000000,
+  Applicationid: 1235,
+  name: "New COC Application",
+  Payment: "Yes",
+  Admit_Card: "print",
+  Written: "Pass",
+  Oral: 'Pass',
+  Eye_Test: "Fail",
+  Result: "Fail",
+  CoC_Issued: "Yes",
+  Details: "Details"
+},
+{
+  sino: 95340,
+  Applicationid: 1234,
+  name: "New COC Application",
+  Payment: "Yes",
+  Admit_Card: "print",
+  Written: "Pass",
+  Eye_Test: "Fail",
+  Result: "Fail",
+  CoC_Issued: "Yes",
+  Details: "Details"
 },
 ]
 

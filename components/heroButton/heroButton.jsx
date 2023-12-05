@@ -25,10 +25,12 @@ export default function heroButton(){
   ]
     return(
 
-      <div className="grid  grid-cols-2  gap-y-5 gap-x-8 gap-x-2 md:pt-16 md:grid-cols-2 md:pt-0 md:gap-x-8">      
+      <div className="grid  grid-cols-2  gap-y-5 gap-x-8 gap-x-2 md:pt-16 md:grid-cols-2 md:pt-0 md:gap-x-8 xl:pt-0 xl:p-2">      
     {
              ButtonList.map ( list => {
-              return <ButtonheroSection details = {list} />
+              return <div key={list.name}>
+                <ButtonheroSection details = {list} />
+              </div>
              })
           }
       
