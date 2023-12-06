@@ -9,7 +9,7 @@ export default function heroButton(){
       color:"bg-[#F1D1D0]",
       link:'/register'
     },{
-      name:"Cirtificatate Verification",
+      name:"Certificate Verification",
       color:"bg-[#F0ECE3]",
       link:"/register",
     },{
@@ -25,7 +25,7 @@ export default function heroButton(){
   ]
     return(
 
-      <div className="grid  grid-cols-2  gap-y-5 gap-x-8 gap-x-2 md:pt-16 md:grid-cols-2 md:pt-0 md:gap-x-8 xl:pt-0 xl:p-2">      
+      <div className="grid  grid-cols-2  gap-y-3 gap-x-4 md:gap-x-10   md:pt-0  xl:pt-0 xl:p-2">      
     {
              ButtonList.map ( list => {
               return <div key={list.name}>
