@@ -9,16 +9,17 @@ module.exports = {
     extend: {
       backgroundImage: {
         
-            'bg_image' : "linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),url(../public/cover.png)",
+            'bg_image' : "linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.01)),url(../public/cover.png)",
             "bgnotice" : "url(../public/coversm.jpg)",
-            "bg_Cover" : "linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),url(../public/coverFullScreen.png)",
+            "bg_Cover" : "linear-gradient(rgba(0, 0, 0, 0.001), rgba(0, 0, 0, 0.001)),url(../public/coverFullScreen.png)",
             "card1":"url(../public/card1.png)",
             "card2":"url(../public/card2.png)"
         
       },
       boxShadow: {
         'noticeboard': '0px 0px 4px 0px rgba(0, 0, 0, 0.25)',
-        "header": "0px 4px 4px 0px rgba(0, 0, 0, 0.25)"
+        "header": "0px 4px 4px 0px rgba(0, 0, 0, 0.25)",
+        "footer" : "box-shadow: 0px -4px 4px 0px rgba(0, 0, 0, 0.25"
       },
       border: {
         'buttonborder': ' 1px solid #0C63B4',

@@ -25,7 +25,7 @@ export default function heroButton(){
   ]
     return(
 
-      <div className="grid  grid-cols-2  gap-y-3 gap-x-4 md:gap-x-10   md:pt-0  xl:pt-0 xl:p-2">      
+      <div className="grid  grid-cols-2  gap-y-3 gap-x-4 md:gap-x-5 md:mx-0   lg:gap-x-10   md:pt-0 xl:gap-y-5 xl:pt-0 xl:pl-2 2xl:mx-auto 2xl:max-w-[900px]">      
     {
              ButtonList.map ( list => {
               return <div key={list.name}>
