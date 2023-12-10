@@ -1,20 +1,27 @@
 "use client"
 import Link from "next/link"
 import MobileMenu from './mobilemenu'
+import { useState } from "react"
 export default function Header(){
 
   
-
+  const [MobileNav , SetMobileNav] = useState(false)
+  
   const handleManubar = () => {
-   const menu = document.getElementById('MobileMenu')
-   menu.classList.toggle('hidden')
+  //  const menu = document.getElementById('MobileMenu')
+  //  menu.classList.toggle('hidden')
+  SetMobileNav(prev => !prev)
   
   }
  
 
     return(
        <div className="relative">
+<<<<<<< HEAD
         <div className="relative text-[12px] py-3  flex  items-center shadow-header fixed w-full bg-white z-40 sm:py-4  md:py-2 xl:px-6 xl:py-3 2xl:px-10 2xl:py-[17px]  ">
+=======
+        <div className="relative text-[12px] py-3  flex  items-center shadow-header fixed w-full bg-white z-40 sm:py-4  md:py-2 xl:px-6 xl:py-4  ">
+>>>>>>> 430f3a58ac7e567ce92d578cdaca879a96177b78
         
          
  {/* Menu Icon */}
@@ -84,7 +91,7 @@ export default function Header(){
         </div>
 
 
-       <div id='MobileMenu' className="block absolute z-40 w-0 transition-all ease-in-out delay-150  md:hidden" >
+       <div id='MobileMenu' className={`${MobileNav ? "translate-x-[0px]" : "-translate-x-[999px]" } " block absolute z-[100] w-0 transition-all ease-in-out delay-200  md:hidden`} >
          <MobileMenu />
        </div>
        

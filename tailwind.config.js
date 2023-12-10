@@ -16,6 +16,12 @@ module.exports = {
             "card2":"url(../public/card2.png)"
         
       },
+      transitionTimingFunction: {
+        'in-expo': 'cubic-bezier(0.95, 0.05, 0.795, 0.035)',
+        'out-expo': 'cubic-bezier(0.19, 1, 0.22, 1)',
+        "nav" : "cubic-bezier(0.76, 0.82, 0, 1.46)"
+      }
+      ,
       boxShadow: {
         'noticeboard': '0px 0px 4px 0px rgba(0, 0, 0, 0.25)',
         "header": "0px 4px 4px 0px rgba(0, 0, 0, 0.25)",

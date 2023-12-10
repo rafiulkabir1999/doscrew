@@ -12,7 +12,7 @@ export default function Details(){
 
 
            <div className=" px-10 py-7 bg-noticebackground ">
-              <Notice/>
+           <Notice width = 'w-full' borderspaching=" border-spacing-2 " border="border-separate" />
               
               <div className="px-5 py-2">
               <ArrowButton />
