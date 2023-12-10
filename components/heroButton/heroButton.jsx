@@ -1,6 +1,5 @@
 
 import ButtonheroSection from "../../components/layout/buttonherosection";
-
 export default function heroButton(){
 
   const ButtonList = [
