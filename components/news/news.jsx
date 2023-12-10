@@ -31,7 +31,7 @@ export default function News(){
 
              <div className="flex  flex-col py-10 px-2 gap-10 justify-between md:gap-4 md:px-4 xl:px-10 md:py-10 md:flex-row xl:mx-8">
              <div className=" gap-4 bg-white grow">
-             <div className="flex flex-col   shadow-noticeboard  h-full ">
+             <div className="flex flex-col   shadow-noticeboard  h-full w-auto ">
                  
                {/* Notice Header */}
                 <div className="flex  items-center gap-3">
@@ -43,7 +43,7 @@ export default function News(){
                </Link>
 
                </div>
-                  <Notice />
+                  <Notice width='w-auto' borderspaching={"border-spaching-0"} border="" />
                </div>
                 </div>
 

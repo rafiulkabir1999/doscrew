@@ -7,7 +7,7 @@ export default function Manual(){
         <div className="">
             <DetailsHeader details="Manual" />
 
-           <div className=" px-10 py-7 bg-noticebackground ">
+           <div className="w-full px-10 py-7 bg-noticebackground ">
               <Notice/>
               
            <div className="flex items-center justify-end m-2   gap-2">
