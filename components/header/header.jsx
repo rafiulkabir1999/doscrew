@@ -17,7 +17,7 @@ export default function Header(){
 
     return(
        <div className="relative">
-        <div className="relative text-[12px] py-3  flex  items-center shadow-header fixed w-full bg-white z-40 sm:py-4  md:py-2 xl:px-6 xl:py-3  ">
+        <div className="relative text-[12px] py-3  flex  items-center shadow-header fixed w-full bg-white z-40 sm:py-4  md:py-2 xl:px-6 xl:py-4  ">
         
          
  {/* Menu Icon */}

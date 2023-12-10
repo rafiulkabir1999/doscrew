@@ -1,3 +1,4 @@
+'use client'
 import Notice from './notice'
 import Card from './card'
 import Link from 'next/link'
@@ -18,6 +19,13 @@ export default function News(){
 
 
 ]
+
+
+const handleModal = () => {
+   const modal = document.getElementById("MODAL")
+   modal.classList.toggle('hidden')
+ 
+  }
   
     return(
         <div className="relative flex flex-col bg-noticebackground ">
@@ -35,7 +43,7 @@ export default function News(){
                  
                {/* Notice Header */}
                 <div className="flex  items-center gap-3">
-                <img src='./icon/noticeicon.svg' className='text-[#262161] p-1 ml-4 my-4 xl:w-[50px] xl:h-[60px] 2xl:w-[55px] 2xl:h-[64.474px] '></img>
+                <img onClick={handleModal} src='./icon/noticeicon.svg' className='text-[#262161] p-1 ml-4 my-4 xl:w-[50px] xl:h-[60px] 2xl:w-[55px] 2xl:h-[64.474px] '></img>
                
                {/* Notice Link */}
                <Link href='/notice'>
